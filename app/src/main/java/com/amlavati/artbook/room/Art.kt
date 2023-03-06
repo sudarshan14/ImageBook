@@ -1,7 +1,9 @@
 package com.amlavati.artbook.room
 
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+@Entity
 data class Art(
     var naem: String,
     var artistName: String,
